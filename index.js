@@ -66,7 +66,7 @@ async function main() {
     await collection.deleteOne(
       { _id: new ObjectId(id) }
     );
-    res.send("item deletado com sucesso!");
+    res.send("Item deletado com sucesso!");
   })
   app.listen(3000, () =>
     console.log("Servidor rodando em http://localhost:3000")
